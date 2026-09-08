@@ -1,0 +1,12 @@
+# Runtime deps for dashboard.py (Streamlit Cloud deploy).
+# flaml + xgboost + lightgbm are required to unpickle models/churn_model.joblib
+# even though dashboard.py doesn't import them directly.
+pandas<3
+numpy
+scikit-learn==1.5.2
+flaml[automl]
+xgboost
+lightgbm
+joblib
+streamlit
+plotly

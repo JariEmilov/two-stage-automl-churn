@@ -1,0 +1,35 @@
+{
+  "screen_models": 27,
+  "screen_seconds": 13.1,
+  "screen_best_model": "LogisticRegression",
+  "screen_best_roc_auc": 0.8404,
+  "flaml_seconds": 180.1,
+  "flaml_best_estimator": "xgboost",
+  "flaml_best_config": {
+    "n_estimators": 136,
+    "max_leaves": 8,
+    "min_child_weight": 0.08899741517367178,
+    "learning_rate": 0.03252164003830816,
+    "subsample": 0.7804221558810561,
+    "colsample_bylevel": 0.8185388460789996,
+    "colsample_bytree": 0.5779659580317111,
+    "reg_alpha": 0.008101703046961069,
+    "reg_lambda": 1.2633008723116497
+  },
+  "flaml_cv_roc_auc": 0.8506,
+  "test_roc_auc": 0.8494,
+  "test_f1": 0.5814,
+  "test_accuracy": 0.8048,
+  "test_precision": 0.6749,
+  "test_recall": 0.5107,
+  "confusion_matrix": [
+    [
+      943,
+      92
+    ],
+    [
+      183,
+      191
+    ]
+  ]
+}
